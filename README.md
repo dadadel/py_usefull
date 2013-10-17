@@ -37,3 +37,29 @@ Exemple:
             print("Found new_param")
         if 'old_param' not in c:
             print("Not found old_param")
+
+- result of execution:
+
+        The param home = Here
+        The param name = Foo Bar
+        The param country = France
+        The param text = This is a test
+        -------
+        name = Foo Bar
+        country = France
+        new_param = One more
+        other = This is good!
+        home = Here
+        text = This is a test
+        -------
+        name: Foo Bar
+        country: France
+        new_param: One more
+        other: This is good!
+        home: Here
+        text: This is a test
+        
+        -------
+        Found new_param
+        Not found old_param
+
