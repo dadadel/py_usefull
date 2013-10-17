@@ -13,8 +13,13 @@ Exemple:
 - myconfig.txt:
 
         # the name
+        
         name = "Foo Bar"
-        country = France
+        
+        country = France # is beautiful
+        
+        comment = "#this is like a comment with a #!"
+
 
 - configtest.py:
 
