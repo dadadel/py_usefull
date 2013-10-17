@@ -18,6 +18,7 @@ Exemple:
 
 - configtest.py:
 
+        #!/usr/bin/python
         from Configuration import Configuration
         c = Configuration("myconfig.txt", {"home": "Here", "text": "This is a test"})
         c.set_new_param("One more")
