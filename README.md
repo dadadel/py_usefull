@@ -18,7 +18,7 @@ Exemple:
         
         country = France # is beautiful
         
-        comment = "#this is like a comment with a #!"
+        comment = "#this is a comment"
 
 
 - configtest.py:
