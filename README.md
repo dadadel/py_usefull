@@ -1,7 +1,7 @@
 config
 ======
 
-A python (2.6+/3+) configuration container with several access modes
+A python (2.6+/3+) class configuration container with several access modes
 In other words, it is a kind of dictionary but you can use it as you want (variables, accessors, keys,...)!
 
 The Configuration class is a dictionary container usable in several ways with key/value data.
