@@ -6,14 +6,11 @@ __licence__ = "GPL3"
 __version__ = "0.0.1"
 __maintainer__ = "A. Daouzli"
 
-
 """
     Implementation of a config container
 
     25/06/2012 - A. Daouzli
-
 """
-
 
 class Configuration(dict):
     def __init__(self, config_file=None, attrs=None):
