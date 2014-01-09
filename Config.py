@@ -12,7 +12,7 @@ __maintainer__ = "A. Daouzli"
     25/06/2012 - A. Daouzli
 """
 
-class Configuration(dict):
+class Config(dict):
     def __init__(self, config_file=None, attrs=None):
         super(Configuration, self).__init__()
         if attrs is not None:
