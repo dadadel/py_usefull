@@ -85,8 +85,8 @@ class Config(dict):
         '''Set attributes to the config. Note that the attributes names will be
         stored in lower case format.
 
-        @param attrs: dictionary containing the attributes
-        @type attrs: dictionary
+        @param kwarg: dictionary containing the attributes
+        @type kwarg: dictionary
 
         '''
         for key, value in kwarg.items():
